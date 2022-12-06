@@ -1,5 +1,5 @@
 <template>
-  <h1>{{ msg }}</h1>
+  <h1> {{ msg }}</h1>
   <Hello />
 </template>
 
@@ -14,6 +14,6 @@ export default {
     return {
       msg: 'oh BABABAB',
     };
-  },
+  }
 };
 </script>
