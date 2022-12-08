@@ -1,0 +1,7 @@
+{
+    "presets": ["@babel/preset-env"],
+    "plugins": [
+        ["@babel/plugins-transform", {
+            "corejs": 3
+        }]]
+}

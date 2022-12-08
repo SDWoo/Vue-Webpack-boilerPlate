@@ -27,6 +27,11 @@ module.exports = {
         test: /\.s?css$/,
         use: ['vue-style-loader', 'css-loader', 'sass-loader'],
       },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: 'babel-loader',
+      },
     ],
   },
   plugins: [
@@ -37,6 +42,6 @@ module.exports = {
     }),
   ],
   devServer: {
-    historyApiFallback: true
-  }
+    historyApiFallback: true,
+  },
 };
